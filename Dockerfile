@@ -1,5 +1,6 @@
 FROM nginx:latest
 
+# Copy the index.html file first
 COPY index.html /usr/share/nginx/html/
 
 # Expose port 80 for HTTP traffic
