@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Lalezar", system-ui;
+    src: url(https://fonts.googleapis.com/css2?family=Lalezar&display=swap);
+}
+
+body {
+    font-family: lalezar;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #112D4E;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header li {
+    float: right;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #DBE2EF;
+    border-radius: 5px;
+}
+
+header li:hover {
+    background-color: #3F72AF;
+}
+
+header img {
+    max-width: 30px;
+}
+
+header a {
+    color: #222831;
+    text-decoration: none;
+}
+
+.game {
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#character {
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position:relative;
+    top: 150px;
+}
+
+.animate {
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block {
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+    animation: block 1s infinite linear;
+}
+
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -20px}
+}
+
+p {
+    text-align: center;
+}

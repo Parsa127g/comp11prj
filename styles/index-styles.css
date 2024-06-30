@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Lalezar", system-ui;
+    src: url(https://fonts.googleapis.com/css2?family=Lalezar&display=swap);
+}
+
+body {
+    font-family: Lalezar;
+    margin: 0px;
+    padding: 0px;
+    background-color: #393E46;
+}
+
+header {
+    background-color: #112D4E;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header li {
+    float: right;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #DBE2EF;
+    border-radius: 5px;
+}
+
+header li:hover {
+    background-color: #3F72AF;
+}
+
+header img {
+    max-width: 30px;
+}
+
+header a {
+    color: #222831;
+    text-decoration: none;
+}
+
+main {
+    background-color: #222831;
+    overflow: hidden;
+}
+
+#my-pic {
+    float: right;
+    margin: 15px 30px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+#give-me-20-pic {
+    margin: 15px 10px;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+main article {
+    float: right;
+    margin: 15px 10px;
+    padding: 0 15px;
+    color: #EEEEEE;
+    background-color: #00ADB5;
+    border-radius: 10px;
+}
+
+main img {
+    float: right;
+    margin: 15px 10px;
+}
+
+strong {
+    color: #E76F51;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #EEEEEE;
+    background-color: #393E46;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
